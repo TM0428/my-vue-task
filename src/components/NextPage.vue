@@ -12,7 +12,9 @@
 <script>
 export default {
     data() {
-        return {};
+        return {
+            item: {},
+        };
     },
     method: {},
 };
