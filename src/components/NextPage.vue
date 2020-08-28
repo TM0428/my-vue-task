@@ -4,7 +4,11 @@
             こんにちは!!
         </h1>
         <div class="Container">
-            <!--リストをここに作成する-->
+            <!-- example
+            <h2>item: {{ item.name }}</h2>
+            <h2>price: {{ item.price }}</h2>
+            -->
+            <!--リストを以下に作成する-->
             <!--参考サイト:http://www.tohoho-web.com/bootstrap/index.html-->
         </div>
     </div>
@@ -13,9 +17,12 @@
 export default {
     data() {
         return {
-            item: {},
+            item: {
+                name: "",
+                price: 0,
+            },
         };
     },
-    method: {},
+    created() {},
 };
 </script>
